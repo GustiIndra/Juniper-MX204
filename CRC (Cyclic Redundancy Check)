@@ -1,0 +1,9 @@
+CRC (Cyclic Redundancy Check) adalah algoritme untuk memastikan integritas data dan mengecek kesalahan pada suatu data yang akan ditransmisikan atau disimpan.
+
+Show CRC in Juniper
+
+# run show interfaces et-0/0/0 extensive | match error
+
+Clear CRC in Juniper
+
+# run clear interfaces statistics et-0/0/0
